@@ -42,7 +42,7 @@ export default function Navbar({ variant = 'transparent' }) {
 <header 
   className={`fixed top-[38px] -mt-px left-0 right-0 z-50 transition-all duration-500 ${
     isScrolled || isSolidVariant
-      ? 'bg-white/95 backdrop-blur-md shadow-md' 
+      ? 'bg-[#ecd6bf] backdrop-blur-md shadow-md' 
       : 'bg-transparent'
   }`}
 >
@@ -51,9 +51,9 @@ export default function Navbar({ variant = 'transparent' }) {
             
             <nav className="hidden lg:flex items-center space-x-8">
               {navLinks.slice(0, 2).map((link) => (
-                <Link key={link.text} href={link.href} className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group ${isScrolled || isSolidVariant ? 'text-black hover:text-[#2a2a2a]' : 'text-white hover:text-gray-200'}`}>
+                <Link key={link.text} href={link.href} className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group ${isScrolled || isSolidVariant ? 'text-[#3a3a3a] hover:text-[#1a1a1a]' : 'text-white hover:text-gray-200'}`}>
                   {link.text}
-                  <span className={`absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${isScrolled || isSolidVariant ? 'bg-[#2a2a2a]' : 'bg-white'}`}></span>
+                  <span className={`absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${isScrolled || isSolidVariant ? 'bg-[#3a3a3a]' : 'bg-white'}`}></span>
                 </Link>
               ))}
             </nav>
@@ -62,11 +62,9 @@ export default function Navbar({ variant = 'transparent' }) {
             <div className="absolute left-1/2 -translate-x-1/2">
               <Link href="/">
                 <img 
-                  src="/logo-desteny.png"
+                  src="/paschi-logo.jpg"
                   alt="Desteny" 
-                  className={`h-20 lg:h-30 w-auto transition-all duration-500 ${
-                    isScrolled || isSolidVariant ? 'brightness-100' : 'brightness-0 invert'
-                  }`}
+                  className="h-20 w-20 lg:h-24 lg:w-24 rounded-full object-cover transition-all duration-500 brightness-100"
                 />
               </Link>
             </div>
@@ -75,23 +73,23 @@ export default function Navbar({ variant = 'transparent' }) {
             <div className="flex items-center space-x-8">
               <nav className="hidden lg:flex items-center space-x-8">
                 {navLinks.slice(2).map((link) => (
-                  <Link key={link.text} href={link.href} className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group ${isScrolled || isSolidVariant ? 'text-black hover:text-[#2a2a2a]' : 'text-white hover:text-gray-200'} ${link.highlight ? 'font-semibold' : 'font-medium'}`}>
+                  <Link key={link.text} href={link.href} className={`font-belleza text-lg tracking-wider transition-colors duration-300 relative group ${isScrolled || isSolidVariant ? 'text-[#3a3a3a] hover:text-[#1a1a1a]' : 'text-white hover:text-gray-200'} ${link.highlight ? 'font-semibold' : 'font-medium'}`}>
                     {link.text}
-                    <span className={`absolute bottom-0 left-0 h-0.5 transition-all duration-300 group-hover:w-full ${link.highlight ? 'w-full' : 'w-0'} ${isScrolled || isSolidVariant ? 'bg-[#2a2a2a]' : 'bg-white'}`}></span>
+                    <span className={`absolute bottom-0 left-0 h-0.5 transition-all duration-300 group-hover:w-full ${link.highlight ? 'w-full' : 'w-0'} ${isScrolled || isSolidVariant ? 'bg-[#3a3a3a]' : 'bg-white'}`}></span>
                   </Link>
                 ))}
               </nav>
               
               <div className="flex items-center space-x-3">
-                <button className={`hidden lg:block p-2 rounded-full transition-colors ${isScrolled || isSolidVariant ? 'hover:bg-gray-100' : 'hover:bg-white/20'}`}>
-                  <Search className={`h-5 w-5 ${isScrolled || isSolidVariant ? 'text-black' : 'text-white'}`} />
+                <button className={`hidden lg:block p-2 rounded-full transition-colors ${isScrolled || isSolidVariant ? 'hover:bg-[#d4c0aa]' : 'hover:bg-white/20'}`}>
+                  <Search className={`h-5 w-5 ${isScrolled || isSolidVariant ? 'text-[#3a3a3a]' : 'text-white'}`} />
                 </button>
-                <button className={`p-2 rounded-full transition-colors ${isScrolled || isSolidVariant ? 'hover:bg-gray-100' : 'hover:bg-white/20'}`}>
-                  <User className={`h-5 w-5 ${isScrolled || isSolidVariant ? 'text-black' : 'text-white'}`} />
+                <button className={`p-2 rounded-full transition-colors ${isScrolled || isSolidVariant ? 'hover:bg-[#d4c0aa]' : 'hover:bg-white/20'}`}>
+                  <User className={`h-5 w-5 ${isScrolled || isSolidVariant ? 'text-[#3a3a3a]' : 'text-white'}`} />
                 </button>
-                <button className={`relative p-2 rounded-full transition-colors ${isScrolled || isSolidVariant ? 'hover:bg-gray-100' : 'hover:bg-white/20'}`}>
-                  <ShoppingBag className={`h-5 w-5 ${isScrolled || isSolidVariant ? 'text-black' : 'text-white'}`} />
-                  <span className={`absolute -top-1 -right-1 text-xs rounded-full h-5 w-5 flex items-center justify-center font-semibold ${isScrolled || isSolidVariant ? 'bg-black text-white' : 'bg-white text-black'}`}>
+                <button className={`relative p-2 rounded-full transition-colors ${isScrolled || isSolidVariant ? 'hover:bg-[#d4c0aa]' : 'hover:bg-white/20'}`}>
+                  <ShoppingBag className={`h-5 w-5 ${isScrolled || isSolidVariant ? 'text-[#3a3a3a]' : 'text-white'}`} />
+                  <span className={`absolute -top-1 -right-1 text-xs rounded-full h-5 w-5 flex items-center justify-center font-semibold ${isScrolled || isSolidVariant ? 'bg-[#3a3a3a] text-[#ecd6bf]' : 'bg-white text-black'}`}>
                     2
                   </span>
                 </button>

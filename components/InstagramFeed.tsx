@@ -2,12 +2,12 @@
 import { Instagram, Heart } from 'lucide-react';
 
 const posts = [
-  { id: 1, src: '/product-3.webp', alt: 'Instagram post 1', likes: '2.3k' },
-  { id: 2, src: '/product-4.webp', alt: 'Instagram post 2', likes: '1.8k' },
-  { id: 3, src: '/product-5.webp', alt: 'Instagram post 3', likes: '3.1k' },
-  { id: 4, src: '/gorras.webp', alt: 'Instagram post 4', likes: '2.7k' },
-  { id: 5, src: '/about.webp', alt: 'Instagram post 5', likes: '1.5k' },
-  { id: 6, src: '/sacos.webp', alt: 'Instagram post 6', likes: '2.9k' },
+  { id: 1, src: '/paschi web-02.png', alt: 'Instagram post 1', likes: '2.3k' },
+  { id: 2, src: '/paschi web-03.png', alt: 'Instagram post 2', likes: '1.8k' },
+  { id: 3, src: '/paschi web-04.png', alt: 'Instagram post 3', likes: '3.1k' },
+  { id: 4, src: '/paschi web-05.png', alt: 'Instagram post 4', likes: '2.7k' },
+  { id: 5, src: '/paschi web-06.png', alt: 'Instagram post 5', likes: '1.5k' },
+  { id: 6, src: '/paschi-web-07.png', alt: 'Instagram post 6', likes: '2.9k' },
 ];
 
 export default function InstagramFeed() {
@@ -19,20 +19,20 @@ export default function InstagramFeed() {
             Follow us on Instagram
           </h2>
           <a 
-            href="https://www.instagram.com/destenyofficial" 
+            href="https://www.instagram.com/paschi.ca/" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 font-moderat text-base sm:text-lg text-white/80 hover:text-white transition-colors duration-300"
           >
             <Instagram className="h-6 w-6" />
-            @destenyofficial
+            @paschi.ca
           </a>
         </div>
         
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-6">
           {posts.map((post) => (
             <div key={post.id} className="group relative block overflow-hidden">
-              <a href="https://www.instagram.com/destenyofficial?igsh=bXQ2aTNmYmNtazdw" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/paschi.ca/" target="_blank" rel="noopener noreferrer">
                 <div className="relative aspect-square w-full bg-gray-800">
                   <img
                     src={post.src}
@@ -65,7 +65,7 @@ export default function InstagramFeed() {
         {/* CTA Button with standard */}
         <div className="text-center mt-12">
           <a
-            href="https://instagram.com/juanbecerra_shop"
+            href="https://www.instagram.com/paschi.ca/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 font-moderat text-white text-sm sm:text-base tracking-[0.15em] uppercase font-light border border-white/50 px-8 py-3 hover:bg-white hover:text-black transition-all duration-300"

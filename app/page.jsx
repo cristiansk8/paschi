@@ -18,13 +18,12 @@ export default function HomePage() {
 
   return (
     <main>
-      <AnnouncementBar />
       <Navbar />
       <HeroSection />
       
       <CategorySection />
       <SeasonalBanner />
-      <FeaturedProducts products={featuredProducts} />
+      {/* <FeaturedProducts products={featuredProducts} /> */}
       <BrandPhilosophy />
       <Newsletter />
       <InstagramFeed />

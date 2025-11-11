@@ -9,7 +9,7 @@ export default function BrandPhilosophy() {
         {/* Imagen Izquierda */}
         <div className="relative h-[500px] lg:h-[700px]">
           <img
-            src="/about.webp"
+            src="/paschi-web-06.png"
             alt="Craftsmanship"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -25,7 +25,7 @@ export default function BrandPhilosophy() {
               Craftsmanship that transcends
             </h3>
             <p className="text-gray-600 text-base sm:text-lg leading-relaxed font-light">
-              At Desteny, we believe true elegance does not shout, it whispers. Each piece is carefully selected for those who understand that style is not a trend — it's a way of life.
+              At Paschi, we believe true elegance does not shout, it whispers. Each piece is carefully selected for those who understand that style is not a trend — it's a way of life.
             </p>
             <p className="text-gray-600 text-base sm:text-lg leading-relaxed font-light">
               Since 2017, we have dedicated our passion to offering premium accessories that define character and distinction in every detail.
@@ -45,7 +45,7 @@ export default function BrandPhilosophy() {
               Fashion passes, style remains
             </blockquote>
             <p className="text-gray-500 text-sm tracking-[0.2em] uppercase font-medium">
-              — Nathaly Desteny, Founder
+              — Nathaly Paschi, Founder
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function BrandPhilosophy() {
         {/* Imagen Derecha */}
         <div className="relative h-[500px] lg:h-[700px] order-1 lg:order-2">
           <img
-            src="/about-2.webp"
+            src="/paschi-web-07.png"
             alt="Premium Materials"
             className="absolute inset-0 w-full h-full object-cover"
           />

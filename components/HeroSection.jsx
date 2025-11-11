@@ -11,7 +11,7 @@ export default function HeroSection() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/hero-banner.mp4" type="video/mp4" />
+          <source src="/paschi.mp4" type="video/mp4" />
           {/* Fallback image si el video no carga */}
           <img
             src="/banner-hero-desteny.webp"

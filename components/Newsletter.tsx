@@ -59,7 +59,7 @@ export default function Newsletter() {
               type="button"
               onClick={handleSubmit}
               disabled={isSubmitting}
-              className="font-moderat flex-none bg-[#10867D] px-8 py-3.5 text-sm tracking-[0.15em] uppercase font-medium text-white hover:bg-[#2a2a2a] focus:outline-none focus:ring-2 focus:ring-[#620c0b] focus:ring-offset-2 disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-300"
+              className="font-moderat flex-none bg-[#000] px-8 py-3.5 text-sm tracking-[0.15em] uppercase font-medium text-white hover:bg-[#2a2a2a] focus:outline-none focus:ring-2 focus:ring-[#620c0b] focus:ring-offset-2 disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-300"
             >
               {isSubmitting ? 'Sending...' : 'Subscribe'}
             </button>

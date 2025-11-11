@@ -10,25 +10,25 @@ const categories = [
     id: 1,
     name: "Sweatshirts",
     href: "/collections/cinturones",
-    imageSrc: "/cat-1.webp",
+    imageSrc: "/paschi web-02.png",
   },
   {
     id: 2,
     name: "Leggings",
     href: "/collections/gorras",
-    imageSrc: "/cat-2.webp",
+    imageSrc: "/paschi web-03.png",
   },
   {
     id: 3,
     name: "Athletic",
     href: "/collections/tarjeteros",
-    imageSrc: "/desteny-web.jpeg",
+    imageSrc: "/paschi web-04.png",
   },
   {
     id: 4,
     name: "Summer",
     href: "/collections/sacos",
-    imageSrc: "/cat-4.webp",
+    imageSrc: "/paschi web-05.png",
   },
 ];
 
@@ -99,7 +99,6 @@ export default function CategorySection() {
             <h2 className="font-belleza text-2xl sm:text-3xl lg:text-5xl font-light tracking-wide mb-6 sm:mb-8 leading-tight text-white text-center lg:text-left">
               Explore more
             </h2>
-            <img src="/logo-desteny-2.png" alt="toro-juan-becerra" className="h-32 w-auto mb-4 filter brightness-0 invert mx-auto lg:mx-0" />
           </div>
 
           {/* Slider - Derecha */}

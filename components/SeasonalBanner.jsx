@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const slides = [
   {
     id: 1,
-    image: '/banner-desteny.jpg',
+    image: '/banner-paschi.png',
     tag: 'New Season',
     title: 'Fall/Winter 2025 Collection',
     subtitle: 'Discover the pieces that will define your style this season.',
@@ -16,7 +16,7 @@ const slides = [
   },
   {
     id: 2,
-    image: '/banner-desteny.jpg',
+    image: '/banner-paschi.png',
     tag: 'Premium Accessories',
     title: 'Accessories that Make a Statement',
     subtitle: 'Elevate your look with our belts and premium leather wallets.',

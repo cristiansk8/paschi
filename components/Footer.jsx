@@ -9,9 +9,9 @@ export default function Footer() {
           {/* Brand & Description */}
           <div className="lg:col-span-1">
             <img 
-              src="/logo-desteny-2.png" 
+              src="/paschi-logo.jpg" 
               alt="desteny" 
-              className="h-42 w-auto mb-4 filter brightness-0 invert"
+              className="h-42 w-auto mb-4"
             />
             <p className="text-gray-400 mb-6 leading-relaxed">
               Limitless elegance since 2017. Premium fashion that defines your style
